@@ -1,0 +1,14 @@
+POST http://localhost:8080/api/check
+Content-Type: application/json
+
+{
+  "header" : {
+    "status" : "ok"
+  },
+  "custInfo": {
+    "idNo": "2"
+  }
+}
+
+
+###
